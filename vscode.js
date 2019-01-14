@@ -12,15 +12,13 @@
   "editor.cursorWidth": 4,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "off",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": true,
-  "vscode_custom_css.imports": [
-    "/Volumes/HD/Users/kube_k/.vscodestyles.css"
-  ],
+  "vscode_custom_css.imports": ["/Volumes/HD/Users/kube_k/.vscodestyles.css"],
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
@@ -46,11 +44,9 @@
   // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "sublimeTextKeymap.promptV3Features": true,
   // These are all my auto-save configs
   "editor.formatOnSave": true,
   // turn it off for JS
-  // WES TURN THIS BACK ON
   "[javascript]": {
     "editor.formatOnSave": true
   },
@@ -90,5 +86,6 @@
     "togglequotes.chars": ["\"", "'", "`"]
   },
   "window.zoomLevel": 0,
-  "editor.parameterHints.enabled": false
+  "editor.parameterHints.enabled": false,
+  "sync.gist": "9c4863ab0416ae5f090741185c183441"
 }

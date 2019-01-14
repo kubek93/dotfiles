@@ -1,20 +1,23 @@
 module.exports = {
-  updateChannel: 'canary',
+  updateChannel: "canary",
   config: {
     // default font size in pixels for all tabs
-    fontSize: 20,
+    fontSize: 14,
     windowSize: [1080, 720],
     fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace',
-    cursorShape: 'BLOCK',
+    cursorShape: "BLOCK",
     wickedBorder: true,
-    padding: '10px',
-    shell: '/bin/zsh'
+    padding: "10px",
+    shell: "/bin/zsh"
   },
 
-
   plugins: [
-    'hyperterm-cobalt2-theme',
-  ],
+    "hyperterm-cobalt2-theme",
+    "hyperline",
+    "hyper-tabs-enhanced",
+    "hypercwd",
+    "hyper-search"
+  ]
 
   // in development, you can create a directory under
   // `~/.hyperterm_plugins/local/` and include it here

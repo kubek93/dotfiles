@@ -1,15 +1,15 @@
 {
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 29,
-  "editor.lineHeight": 40,
-  "editor.quickSuggestionsDelay": 500,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.quickSuggestionsDelay": 100,
   "editor.letterSpacing": 0.5,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
-  "editor.cursorWidth": 5,
+  "editor.cursorWidth": 4,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
   "editor.wordWrap": "on",
@@ -17,17 +17,14 @@
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
+    "/Volumes/HD/Users/kube_k/.vscodestyles.css"
   ],
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -88,13 +85,9 @@
   "workbench.editor.enablePreview": true,
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "[jade]": {
-    "togglequotes.chars": [
-      "\"",
-      "'",
-      "`"
-    ]
+    "togglequotes.chars": ["\"", "'", "`"]
   },
   "window.zoomLevel": 0,
   "editor.parameterHints.enabled": false

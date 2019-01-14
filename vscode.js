@@ -48,9 +48,14 @@
   "editor.formatOnSave": true,
   // turn it off for JS
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
+  // tell the ESLint plugin to run on save
   "eslint.autoFixOnSave": true,
+  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": [
+    "js"
+  ],
   "eslint.alwaysShowStatus": true,
   "cSpell.userWords": [
     "SIGNUP",
